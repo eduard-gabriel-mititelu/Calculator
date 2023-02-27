@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Eduard Mititelu">
+        <script src="https://kit.fontawesome.com/7b3e02872f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="icon" type="image/x-icon" href="./pngaaa.com-418712.png">
+        <title>Calculator</title>
+    </head>
+    <body>
+        <form class="inferior-content" name="form">         <!--Calculator's external div-->
+            <div class="content">                       <!--The calculator-->
+                <div>
+                    <h2 class="titleName">Calculator</h2>       <!--The title-->
+                </div>
+                <div>
+                    <input class="finalResult" type="text" name="result">       <!--The result of the calculator-->
+                </div>
+                <div class="inferiorButton">                    <!--Buttons's external div-->
+                    <input class="button" type="button" value="7" onclick="form.result.value+='7'">         <!--The buttons-->
+                    <input class="button" type="button" value="8" onclick="form.result.value+='8'">
+                    <input class="button" type="button" value="9" onclick="form.result.value+='9'">
+                    <input class="button devide" type="button" value="/" onclick="form.result.value+='/'">  <!--The devide button-->
+                    <input class="button" type="button" value="4" onclick="form.result.value+='4'">
+                    <input class="button" type="button" value="5" onclick="form.result.value+='5'">
+                    <input class="button" type="button" value="6" onclick="form.result.value+='6'">
+                    <input class="button multiply" type="button" value="*" onclick="form.result.value+='*'">    <!--The multiply button-->
+                    <input class="button" type="button" value="1" onclick="form.result.value+='1'">
+                    <input class="button" type="button" value="2" onclick="form.result.value+='2'">
+                    <input class="button" type="button" value="3" onclick="form.result.value+='3'">
+                    <input class="button decrease" type="button" value="-" onclick="form.result.value+='-'">    <!--The decrease button-->
+                    <input class="button" type="button" value="0" onclick="form.result.value+='0'">
+                    <input class="button dot" type="button" value="." onclick="form.result.value+='.'">     <!--The dot button-->
+                    <!--The equal button-->
+                    <input class="button equal" type="button" value="=" onclick="form.result.value=eval(form.result.value)">
+                    <input class="button plus" type="button" value="+" onclick="form.result.value+='+'">        <!--The plus button-->
+                    <input class="button" type="button" value="DEL" onclick="form.result.value=' '">
+                </div>
+            </div>
+        </form>
+        <div>
+            <p class="me">Made by Eduard Gabriel Mititelu</p>           <!--The author-->
+        </div>
+
+    </body>
+</html>

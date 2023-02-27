@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{               /*General styling of the body*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to right, #342e2a, #425c76);
+}
+.inferior-content{          /*Calculator's external div*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.content{                   /*The calculator*/
+    height: 600px;
+    width: 300px;
+    background-color: #252525;
+    border-radius: 40px;
+    padding: 5px;
+    -webkit-box-shadow: 1px 1px 42px 11px rgba(0,0,0,0.54); 
+    box-shadow: 1px 1px 42px 11px rgba(0,0,0,0.54);
+}
+.titleName{                 /*The title*/
+    color: orangered;
+    margin-left: 20px;
+}
+.finalResult{               /*The result of the calculator*/
+    margin-top: 45px;
+    text-align: end;
+    margin-left: 34px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    background: none;
+    border: none;
+    font-size: 40px;
+    width: 80%;
+}
+.inferiorButton{            /*Buttons's external div*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+.button{                    /*The buttons*/
+    margin: 5px;
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 100px;
+    color: #fff;
+    padding: 20px;
+    font-size: 19px;
+}
+.button:hover{              /*The buttons when mouse is over*/
+    transform: scale(1.08);
+    transition: all 0.3s;
+}
+.decrease{                  /*The decrease button*/
+    font-size: larger;
+    background-color: #666666;
+}
+.dot{                       /*The dot button*/
+    font-size: larger;
+    padding-top: 16px;
+}
+.equal{                       /*The equal button*/
+    background-color: orangered;
+}
+.multiply{                       /*The multiply button*/
+    background-color: #666666;
+}
+.devide{                       /*The devide button*/
+    background-color: #666666;
+}
+.plus{                       /*The plus button*/
+    background-color: #666666;
+}
+.me{                    /*The author*/
+    color: #fff;
+    float: right;
+    margin-right: 10px;
+}
